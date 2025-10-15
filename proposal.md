@@ -12,8 +12,7 @@
 La página web tiene como objetivo ayudar a los usuarios a planificar sus vuelos de manera eficiente en torno a un presupuesto disponible, permite a los usuarios ingresar el presupuesto deseado para su vuelo, y el sistema sugiere una variedad de destinos turísticos que se ajustan al presupuesto ingresado con posibilidad de compra.
 
 ### Modelo
-![image](<img width="786" height="391" alt="image" src="https://github.com/user-attachments/assets/f651e575-2f68-4349-bbd2-545c82ba28d1" />
-)
+![image](https://github.com/user-attachments/assets/f651e575-2f68-4349-bbd2-545c82ba28d1)
 
 
 
@@ -25,7 +24,7 @@ La página web tiene como objetivo ayudar a los usuarios a planificar sus vuelos
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD usuario<br>2. CRUD destino<br> 3. CRUD vuelo <br>
+|CRUD simple|1. CRUD usuario<br>2. CRUD destino<br> 3. CRUD vuelo <br> 4. CRUD favorito <br>
 |CRUD dependiente|1. CRUD Reseva {depende de} CRUD usuario y CRUD Vuelo<br>
 |Listado<br>+<br>detalle| 1. Listado de vuelos filtrado por presupuesto, cantidad de personas, fecha de salida, ciudad de origen. Muestra vuelos disponibles con: Destino, valor del vuelo,fecha de salida, duracion del vuelo, actividades, transportes <br> 2. Listado de favoritos, muestra los viajes que el usuario haya guardado en favoritos. <br> 3. Listado de Reservas: muestra los vuelos de las reservas que haya realizado el usuario.
 |CUU/Epic|1. Reservar un vuelo<br>|
